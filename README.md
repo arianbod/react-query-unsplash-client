@@ -1,4 +1,3 @@
-
 # React Query Unsplash Client
 
 ## About
@@ -24,7 +23,7 @@ Welcome to the React Query Unsplash Client - an open-source interface for explor
 
 1. Clone the repository:
    ```
-   git clone https://github.com/[YourUsername]/react-query-unsplash-client.git
+   git clone https://github.com/arianbod/react-query-unsplash-client.git
    ```
 2. Navigate to the directory:
    ```
