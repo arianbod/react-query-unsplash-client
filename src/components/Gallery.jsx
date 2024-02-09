@@ -1,9 +1,8 @@
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import React from 'react';
-
-const url =
-	'https://api.unsplash.com/search/photos?query=cat&client_id=OLIAyHh-WZVqkJM4o9YndtjyUvr9UgT7UcKUAOYukp0';
+const searchIdea = 'dollar';
+const url = `https://api.unsplash.com/search/photos?query=${searchidea}&client_id=OLIAyHh-WZVqkJM4o9YndtjyUvr9UgT7UcKUAOYukp0`;
 const Gallery = () => {
 	const response = useQuery({
 		queryKey: ['images'],
