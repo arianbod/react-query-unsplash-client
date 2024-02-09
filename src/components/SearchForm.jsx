@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
+import { useGlobalContext } from './context';
 
 const SearchForm = () => {
+	const { searchTerm, setSearchTerm } = useGlobalContext();
 	const [searchValue, setSearchValue] = useState('');
 	const handleSearchChange = (e) => setSearchValue(e.target.value);
 	const handleSubmit = (event) => {
 		event.preventDefault();
-		console.log(searchValue);
+		setSearchTerm(searchValue);
 	};
 	return (
 		<section>
